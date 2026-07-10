@@ -1,59 +1,29 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+date: 2026-06-22
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tiến hành deploy chính thức dự án Smart Food lên EC2 kết hợp cấu hình Web Server Nginx.
+- Bắt đầu tham gia hỗ trợ trưởng nhóm thực hiện các bài kiểm thử trên dự án chung DaiMarket.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                           | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                       |
+| --- | ------------------------------------------------------------------- | ------------ | --------------- | ------------------------------------ |
+| 2   | - Khởi tạo instance EC2 Production, cài đặt Java Runtime            | 22/06/2026   | 22/06/2026      |                                      |
+| 3   | - Cấu hình máy chủ Web Server Nginx làm Reverse Proxy               | 23/06/2026   | 23/06/2026      | Hướng dẫn cấu hình Nginx             |
+| 4   | - Deploy dự án Smart Food lên EC2, trỏ Domain và kích hoạt HTTPS    | 24/06/2026   | 24/06/2026      | AWS EC2 / Nginx Console              |
+| 5   | - Tiếp nhận tài liệu kiến trúc hệ thống DaiMarket từ trưởng nhóm    | 25/06/2026   | 25/06/2026      | Tài liệu thiết kế hệ thống DaiMarket |
+| 6   | - Phối hợp chạy các kịch bản kiểm thử hệ thống DaiMarket trên Cloud | 26/06/2026   | 26/06/2026      | Kịch bản kiểm thử của nhóm           |
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Dự án cá nhân Smart Food được triển khai thành công lên Cloud AWS thực tế, người dùng có thể truy cập qua domain an toàn với giao thức HTTPS.
+- Cấu hình thành công Nginx để điều hướng yêu cầu (Request routing) một cách hiệu quả vào ứng dụng Backend.
+- Hiểu rõ sơ đồ kiến trúc và luồng vận hành của hệ thống DaiMarket do trưởng nhóm quản lý.
+- Đóng góp kết quả kiểm thử bước đầu, giúp phát hiện sớm một số lỗi cấu hình hạ tầng trên môi trường test của DaiMarket.

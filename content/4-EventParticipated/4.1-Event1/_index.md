@@ -1,126 +1,99 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Saturday Meet up"
+date: 2026-06-12
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event Reflection “Saturday Meet up”
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+### Purpose of the Event
 
-### Event Objectives
+- Share the journey of career development in the tech industry (Cloud, AI, DevOps, Data) from a student to a working professional.
+- Provide practical insights into the daily tasks and responsibilities of DevOps and Data Analytics Engineers at large enterprises.
+- Orient the required skill sets, career development mindset, and explore the working culture in Multinational Corporations (MNCs).
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### List of Speakers
 
-### Speakers
-
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Danh Hoang Hieu Nghi** - AI Engineer, AWS Community Builder & AWS Student Builder Group Leader.
+- **Trong H. Truong** - DevOps Engineer at Endava Vietnam.
+- **Mr. Dat Pham** - Data Analytics Engineer.
+- **Mr. Cuong Nguyen** - Process Engineer.
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### The First Cloud AI Journey
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- The roadmap starts with a student's curiosity, seeking suitable environments through workshops and tech communities.
+- Skill development involves learning from others, doing Hands-on Labs, applying knowledge to school projects, and building a practical portfolio.
+- The ultimate goal is to solve real-world problems, become an AWS Partner, and share back to the next generation.
 
-#### Transitioning to modern application architecture – Microservices
+#### The Reality of DevOps
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- The hiring demand and salary expectations for DevOps and Cloud Engineers are trending strongly upward in Vietnam for the 2016-2026 period.
+- In reality, DevOps is not just about writing CI/CD pipelines or deploying code; it also involves 24/7 on-call rotation, incident handling, debugging, environment support, security, and cloud cost management.
+- The learning path should begin with Fundamentals: Linux, Networking, programming languages (Python, Golang), Git, CI/CD, and Containers.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Role of a Data Analytics Engineer & Career Development Mindset
 
-#### Domain-Driven Design (DDD)
+- Practical work requires building reports (daily/weekly/monthly), designing performance tracking dashboards, analyzing root causes, and proposing optimal solutions for the business (as applied at Kamereo and Colgate-Palmolive).
+- Essential skills include Critical Thinking, Communication, Data Storytelling, and Problem Solving.
+- A 5-level career development roadmap: Follower -> Learner -> Problem Solver -> System Thinker -> Super Star.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Corporate Culture in Multinational Corporations (MNCs)
 
-#### Event-Driven Architecture
+- A standard recruitment process consists of 4 steps: ATS CV screening & preliminary interview, Competency Test, Technical Interview (using the STAR model), and Cultural Fit Assessment.
+- Emphasis on a positive work environment: "No-Blame Post-Mortem" culture (focusing on root causes to fix systems rather than blaming individuals) and "Caring & Inclusive" culture (respecting diversity).
+- Aiming for the "Right Work" (Đúng Việc) philosophy: Being a human (Fulfillment), being a professional (Purpose & Meaningful), and being a citizen (Community & Legacy) to shoulder the national digital backbone.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+### What I Learned
 
-#### Compute Evolution
+#### Technical & Design Thinking
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+- **Tools change, but fundamentals remain:** Prioritize mastering "Fundamentals" rather than just chasing how to use new tools.
+- **System Thinking:** Practice seeing the big picture, understanding cross-functional relationships, and focusing on long-term system optimization rather than temporary quick fixes.
+- Understand the true nature of practical work; do not copy commands mechanically, but always ask "why" before asking "how".
 
-#### Amazon Q Developer
+#### Soft Skills & Career Orientation
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **Data Storytelling:** The importance of turning dry numbers into meaningful stories to drive business actions.
+- **Proactive Problem Solving:** Don't just blindly follow checklists; analyze problems deeply and commit to output quality.
+- **Smart use of AI:** Use AI as a leverage tool to boost productivity, but never use it to completely switch off your brain.
 
-### Key Takeaways
+### Practical Application
 
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Strengthen fundamentals:** Focus on reviewing and practicing core knowledge such as Linux, Networking, and Container operations (Docker/K8s) via small personal projects.
+- **Apply the No-Blame mindset:** When working on group assignments, focus on finding root causes to fix system/code errors instead of complaining or blaming team members.
+- **Present projects more professionally:** Apply "Data storytelling" and communication skills to present reports and school projects coherently, focusing on core values rather than just raw data.
+- **Upgrade portfolio:** Participate in Hands-on Labs, build real-world projects, and learn from tech communities (like AWS Student Builder) to polish my resume for future MNC interviews.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the **"Saturday Meet up"** was an excellent opportunity to bridge the gap between academic theory and the harsh reality of the job market. Here are some valuable experiences and lessons I gathered:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from Industry Experts
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Gained access to pragmatic, "no-nonsense" insights from senior professionals working directly at AWS, Endava, Kamereo, and Colgate-Palmolive.
+- Real-world case studies on factory data systems and night-time error handling processes helped me clearly visualize the pressure and responsibilities of an IT engineer.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Breaking Career Stereotypes
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- I realized DevOps isn't just about "deploying code" or "creating pipelines"; they act like "firefighters" responsible for security, costs, and system stability.
+- Similarly, Data Analytics isn't merely about generating reports; it's a process of deep thinking and problem-solving that directly impacts a company's business decisions.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Understanding Global Standards & MNC Culture
 
-#### Some event photos
-*Add your event photos here*  
+- Strongly impressed by the professional, rigorous, yet highly human-respecting work processes of multinational corporations (MNCs) through their "No-Blame" culture.
+- Grasped the STAR model to better prepare for future competency and cultural fit interviews.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Key Takeaways
+
+- Career development is a progressive journey from a "Follower" who only follows instructions to a "System Thinker" with a holistic vision.
+- Although technologies (tools) constantly change, core fundamentals and professional attitudes are what retain long-term value.
+
+#### Some pictures from the event
+
+- Add your event photos here
+
+> Overall, the event not only provided data and specialized knowledge about Cloud, DevOps, and Data, but also served as a great inspiration regarding the "Right Work" attitude, continuous learning spirit, and the ambition to reach global standards for the new generation of tech engineers.

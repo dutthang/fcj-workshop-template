@@ -1,57 +1,29 @@
 ---
-title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Worklog Week 5"
+date: 2026-05-18
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives for Week 5:
 
-### Week 5 Objectives:
+- Configure the development environment, implement skeleton APIs, and build the initial UI.
+- Research and implement data integration with Amazon S3.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks to be implemented this week:
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                 | Start Date | End Date   | Resource/Documentation                    |
+| --- | ---------------------------------------------------- | ---------- | ---------- | ----------------------------------------- |
+| Mon | - Set up the workspace on Visual Studio Code         | 18/05/2026 | 18/05/2026 | VS Code Plugin Configuration Guide        |
+| Tue | - Code backend skeleton APIs (Controller/Service)    | 19/05/2026 | 19/05/2026 | Restful API Design Document               |
+| Wed | - Build the initial Frontend layout for the app      | 20/05/2026 | 20/05/2026 | Figma/Sketch Project Designs              |
+| Thu | - Write AWS SDK integration module to talk with S3   | 21/05/2026 | 21/05/2026 | AWS SDK for Java/JavaScript Documentation |
+| Fri | - Test the food image upload/download function on S3 | 22/05/2026 | 22/05/2026 | Localhost Environment                     |
 
+### Achievements for Week 5:
 
-### Week 5 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Synchronized and optimized the Visual Studio Code dev environment for smooth project execution.
+- Completed the Backend API framework, including routing and handling mock data.
+- The basic Client UI displaying the food list has taken shape.
+- Successfully integrated the AWS SDK library, allowing the application to stably upload images directly from local to the S3 cloud bucket.
