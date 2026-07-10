@@ -97,3 +97,7 @@ Attending the **"Saturday Meet up"** was an excellent opportunity to bridge the 
 - Add your event photos here
 
 > Overall, the event not only provided data and specialized knowledge about Cloud, DevOps, and Data, but also served as a great inspiration regarding the "Right Work" attitude, continuous learning spirit, and the ambition to reach global standards for the new generation of tech engineers.
+
+#### Event photo
+
+![alt text](../../../static/images/minhchung1.png)

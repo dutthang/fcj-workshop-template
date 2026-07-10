@@ -97,3 +97,7 @@ Tham gia buổi **"Saturday Meet up"** là một cơ hội tuyệt vời giúp t
 - Thêm các hình ảnh của các bạn tại đây
 
 > Tổng thể, sự kiện không chỉ cung cấp các số liệu và kiến thức chuyên môn về Cloud, DevOps hay Data, mà còn là nguồn cảm hứng lớn lao về thái độ làm nghề "Đúng Việc", tinh thần học hỏi không ngừng và khát vọng vươn tới các tiêu chuẩn toàn cầu của thế hệ kỹ sư công nghệ mới.
+
+#### Ảnh event
+
+![alt text](../../../static/images/minhchung1.png)
