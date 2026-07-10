@@ -29,7 +29,7 @@ If your company needs long-term historical data storage for analytical SQL queri
 - Cost: Slightly higher, around $30–$50/month for AWS resources.
 - Power: Enables deep data analysis workflows with Athena (covered in the next section).
 
-![Amazon Bedrock Gen AI Architecture](.../images/3-BlogsPosted/3.1-Blog1/image1.png)
+![Amazon Bedrock Gen AI Architecture](/images/3-BlogsPosted/3.1-Blog1/image1.png)
 
 ## 2. What Is The System Listening To?
 
