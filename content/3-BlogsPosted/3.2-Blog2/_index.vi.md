@@ -1,31 +1,47 @@
 ---
 title: "Blog 2"
-date: 2024-01-01
+date: 2026-07-07
 weight: 1
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+## Tổng hợp nhanh AWS Weekly: Claude Opus 4.8, Aurora MySQL + Kiro, AWS Transform và nhiều cập nhật đáng chú ý
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Tuần này AWS mang đến khá nhiều cập nhật mới, từ AI, cơ sở dữ liệu đến khả năng đánh giá hạ tầng trước khi di chuyển lên cloud. Dưới đây là những điểm mình thấy đáng chú ý.
 
-Các điểm chính cần nắm:
+## Claude Opus 4.8 đã có trên AWS
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+Mô hình mạnh nhất hiện tại của Anthropic là **Claude Opus 4.8** đã có thể sử dụng thông qua **Amazon Bedrock** và nền tảng Claude trên AWS.
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+Điểm nổi bật của phiên bản này là khả năng xử lý các tác vụ dài, lập trình tự động và suy luận tốt hơn. Với developer, Claude có thể đọc toàn bộ codebase, lập kế hoạch trước khi chỉnh sửa và giữ ngữ cảnh xuyên suốt một phiên làm việc dài thay vì chỉ xử lý từng đoạn code riêng lẻ.
 
-...Hình ảnh...
+Nếu sử dụng qua Amazon Bedrock thì vẫn được hưởng các dịch vụ quản lý của AWS như Guardrails, Knowledge Bases và khả năng quản lý dữ liệu tích hợp.
 
-...Link...
+## AWS Resilience Hub thế hệ mới
 
-...Hướng dẫn...
+AWS cũng nâng cấp **Resilience Hub** để giúp SRE và DevOps quản lý khả năng phục hồi của hệ thống tốt hơn.
+
+Điểm mình thấy hay là service này không chỉ đánh giá mức độ sẵn sàng của ứng dụng mà còn hỗ trợ xây dựng các chính sách về SLO, Disaster Recovery, phát hiện dependency và đánh giá theo AWS Well-Architected Framework bằng AI.
+
+Nếu đang vận hành nhiều workload thì đây sẽ là công cụ khá hữu ích để theo dõi khả năng chịu lỗi trên toàn tổ chức.
+
+## AWS Transform có thêm khả năng đánh giá trước khi migrate
+
+Ngoài tính năng Continuous Modernization được AWS giới thiệu trước đó, AWS Transform giờ còn hỗ trợ đánh giá trước khi di chuyển hệ thống lên AWS.
+
+Service có thể nhập dữ liệu từ RVTools, CMDB hoặc các công cụ discovery khác để ước tính TCO, phân tích khả năng hiện đại hóa ứng dụng và đánh giá mức độ sẵn sàng chỉ trong vài phút cho mỗi repository.
+
+Theo mình, điều này giúp doanh nghiệp có cái nhìn rõ hơn về chi phí và mức độ phức tạp trước khi bắt đầu một dự án migration.
+
+## Aurora MySQL kết hợp với Kiro Powers
+
+Một cập nhật khá thú vị là **Aurora MySQL** đã tích hợp với **Kiro Powers**.
+
+Developer giờ có thể dùng ngôn ngữ tự nhiên để thực hiện nhiều tác vụ như:
+
+- Query dữ liệu.
+- Quản lý schema.
+- Scale Aurora Serverless.
+- Di chuyển từ RDS sang Aurora.
+- Thiết lập replication.

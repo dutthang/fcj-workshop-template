@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Đây là nhật ký công việc (worklog) ghi lại chi tiết toàn bộ quá trình thực tập của tôi tại Công ty TNHH Amazon Web Services Viet Nam. Chương trình thực tập và triển khai dự án được hoàn thành trong vòng **12 tuần**, bám sát tiến độ chung của nhóm. Quá trình này bao gồm các giai đoạn từ việc làm quen môi trường, phát triển dự án "Smart Food" (Ứng dụng đặt thức ăn nhanh sử dụng AI gợi ý) cho đến thời gian phối hợp, hỗ trợ trưởng nhóm triển khai hệ thống chung lên môi trường Cloud thực tế.
+Đây là nhật ký công việc (worklog) ghi lại chi tiết toàn bộ quá trình thực tập của tôi tại Công ty TNHH Amazon Web Services Viet Nam. Chương trình thực tập và triển khai dự án được hoàn thành trong vòng **11 tuần**, bám sát tiến độ chung của nhóm. Quá trình này bao gồm các giai đoạn từ việc làm quen môi trường, phát triển dự án "Smart Food" (Ứng dụng đặt thức ăn nhanh sử dụng AI gợi ý) cho đến thời gian phối hợp, hỗ trợ trưởng nhóm triển khai hệ thống chung lên môi trường Cloud thực tế.
 
 Dưới đây là nội dung tổng quan các công việc đã thực hiện qua từng tuần:
 

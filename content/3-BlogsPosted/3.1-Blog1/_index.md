@@ -1,10 +1,12 @@
 ---
-title: "Monitoring and Managing Claude Code Costs on Amazon Bedrock: A Comprehensive Guide for Developers"
+title: "Blog 1"
 date: 2026-07-09
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
+
+## Monitoring and Managing Claude Code Costs on Amazon Bedrock: A Comprehensive Guide for Developers
 
 Using AI in programming is an irreversible trend, and Claude Code combined with Amazon Bedrock is one of the most powerful tools available today. However, when deploying this tool for an entire team, managers and system engineers often face a tough question: How do we track usage, control costs, and measure actual code generation performance?
 
