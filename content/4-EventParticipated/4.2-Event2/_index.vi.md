@@ -18,7 +18,7 @@ pre: " <b> 4.2. </b> "
 ### Danh Sách Diễn Giả
 
 - **Anh Nguyễn Gia Hưng** - Head of Solution Architect tại AWS Việt Nam
-- **Anh Bành Cẩm Vĩnh** - Data Engineer tại Renova Cloud
+- **Anh Bành Cẩm Vỉnh** - Data Engineer tại Renova Cloud
 - **Chị Như Trần** - Account Manager tại AWS Việt Nam
 - **Anh Khang Nguyễn** - Solution Architect tại Cloud Kinetics, Cựu sinh viên Swinburne
 
