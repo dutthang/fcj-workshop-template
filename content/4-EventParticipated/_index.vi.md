@@ -20,10 +20,10 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 
 ### [Event 2](4.2-Event2/)
 
-&emsp;**Tên sự kiện:** Saturday Meet up
+&emsp;**Tên sự kiện:** AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
 
-&emsp;**Thời gian:** 09:00 ngày 06/06/2026
+&emsp;**Thời gian:** 09:00 ngày 04/07/2026
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** AWS Study Group YouTube Channel
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự

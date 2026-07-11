@@ -1,5 +1,5 @@
 ---
-title: "Saturday Meet up"
+title: "Event1"
 date: 2026-06-12
 weight: 1
 chapter: false
@@ -100,4 +100,4 @@ Attending the **"Saturday Meet up"** was an excellent opportunity to bridge the 
 
 #### Event photo
 
-![alt text](../../../static/images/minhchung1.png)
+![alt text](/images/minhchung1.png)

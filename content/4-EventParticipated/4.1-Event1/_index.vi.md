@@ -1,5 +1,5 @@
 ---
-title: "Saturday Meet up"
+title: "Event 1"
 date: 2026-06-12
 weight: 1
 chapter: false
@@ -100,4 +100,4 @@ Tham gia buổi **"Saturday Meet up"** là một cơ hội tuyệt vời giúp t
 
 #### Ảnh event
 
-![alt text](../../../static/images/minhchung1.png)
+![alt text](/images/minhchung1.png)
