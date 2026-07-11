@@ -3,6 +3,7 @@ title: "Work log"
 date: 2024-01-01
 weight: 1
 chapter: false
+pre: " <b> 1. </b> "
 ---
 
 This is a worklog that records in detail my entire internship process at Amazon Web Services Vietnam Company Limited. The internship program and project deployment were completed within **11 weeks**, closely following the team's overall schedule. This process includes stages ranging from getting familiar with the environment and developing the "DaiMarket" project (a cloud-based marketplace for digital products and 3D models) to the period of collaborating and assisting the team leader in deploying the shared system onto the actual Cloud environment.
