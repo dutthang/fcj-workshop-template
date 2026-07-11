@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 10"
-date: 2026-06-22
-weight: 10
+title: "Week 10 Worklog"
+date: 2024-01-01
+weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
-### Objectives for Week 10:
+### Week 10 Objectives:
 
-- Officially deploy the Smart Food project to EC2 combined with Nginx Web Server configuration.
-- Start assisting the team leader in executing tests on the shared DaiMarket project.
+- Build the Personal Library flow for users to download files.
+- Handle Frontend security authorization (JWT).
+- Prepare secure SQL data to migrate to Amazon RDS.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                     | Start Date | End Date   | Resource/Documentation       |
-| --- | -------------------------------------------------------- | ---------- | ---------- | ---------------------------- |
-| Mon | - Launch Production EC2 instance, install Java Runtime   | 22/06/2026 | 22/06/2026 |                              |
-| Tue | - Configure Nginx Web Server as a Reverse Proxy          | 23/06/2026 | 23/06/2026 | Nginx Configuration Guide    |
-| Wed | - Deploy Smart Food to EC2, point Domain, enable HTTPS   | 24/06/2026 | 24/06/2026 | AWS EC2 / Nginx Console      |
-| Thu | - Receive DaiMarket system architecture docs from leader | 25/06/2026 | 25/06/2026 | DaiMarket System Design Docs |
-| Fri | - Co-execute DaiMarket system testing scenarios on Cloud | 26/06/2026 | 26/06/2026 | Team's Testing Scripts       |
+| Day | Task                                                                                          | Start Date | Completion Date |
+| --- | --------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Code the Personal Library interface and integrate a secure file download flow.              | 06/22/2026 | 06/22/2026      |
+| 3   | - Configure Axios Interceptors to automatically attach JWT Tokens to headers for secure APIs. | 06/23/2026 | 06/23/2026      |
+| 4   | - Write a `seed-required.js` script using safe UPSERT commands to deploy to RDS.              | 06/24/2026 | 06/24/2026      |
+| 5   | - Execute direct SQL to assign Admin privileges for testing on the cloud environment.         | 06/25/2026 | 06/25/2026      |
+| 6   | - Change the API Base URL on the Frontend in preparation for connecting to the EC2 backend.   | 06/26/2026 | 06/26/2026      |
 
-### Achievements for Week 10:
+### Week 10 Achievements:
 
-- The personal Smart Food project was successfully deployed to the real AWS Cloud; users can access it via a secure domain with HTTPS.
-- Successfully configured Nginx to efficiently handle request routing to the Backend application.
-- Understood the architecture diagram and operational flow of the DaiMarket system managed by the team leader.
-- Contributed initial testing results, helping to early detect some infrastructure configuration bugs in DaiMarket's test environment.
+- The Frontend accurately handles JWT security, successfully calling authenticated APIs.
+- Safe mock data (without overwriting real data) is ready to migrate to Amazon RDS.

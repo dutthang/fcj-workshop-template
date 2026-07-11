@@ -1,28 +1,28 @@
 ---
-title: "Worklog Week 8"
-date: 2026-06-08
-weight: 8
+title: "Week 8 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Objectives for Week 8:
+### Week 8 Objectives:
 
-- Comprehensively finalize Smart Food features, optimize source code for enhanced performance.
-- Configure information transmission security mechanisms using HTTPS encryption certificates.
+- Build the Checkout page interface.
+- Handle Database transaction logs and update order statuses from the SePay webhook.
+- Perfect the purchasing experience.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                      | Start Date | End Date   | Resource/Documentation           |
-| --- | --------------------------------------------------------- | ---------- | ---------- | -------------------------------- |
-| Mon | - Review all written functions and fix logic bugs         | 08/06/2026 | 08/06/2026 | Internal Testing Scripts         |
-| Tue | - Optimize SQL queries, configure app caching             | 09/06/2026 | 09/06/2026 | Database Optimization Docs       |
-| Wed | - Learn about SSL/TLS certificates and HTTPS              | 10/06/2026 | 10/06/2026 |                                  |
-| Thu | - Initialize and set up SSL security config files         | 11/06/2026 | 11/06/2026 | Certbot / Let's Encrypt Standard |
-| Fri | - Check security and prepare source code for cloud deploy | 12/06/2026 | 12/06/2026 |                                  |
+| Day | Task                                                                                      | Start Date | Completion Date |
+| --- | ----------------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Code the Checkout screen interface (Cart / Payment).                                    | 06/08/2026 | 06/08/2026      |
+| 3   | - Display the SePay payment QR code and transaction status polling logic on the UI.       | 06/09/2026 | 06/09/2026      |
+| 4   | - Design the SQL table to store the webhook transaction logs from SePay.                  | 06/10/2026 | 06/10/2026      |
+| 5   | - Write SQL queries to safely update order statuses (PENDING -> SUCCESS).                 | 06/11/2026 | 06/11/2026      |
+| 6   | - Test the full order creation flow, QR display, and receiving payment updates on the UI. | 06/12/2026 | 06/12/2026      |
 
-### Achievements for Week 8:
+### Week 8 Achievements:
 
-- The Smart Food system runs stably in the local environment; core features (ordering, AI suggestion, mock payment) are tightly integrated.
-- API response speed significantly increased after optimizing DB indexes and tuning Backend code.
-- Grasped how SSL/TLS certificates work and fully prepared the HTTPS configuration file to encrypt data transmission on the actual Cloud environment.
+- Professional payment interface, QR code displays, and statuses update seamlessly.
+- The Database securely processes order status updates, avoiding race conditions.

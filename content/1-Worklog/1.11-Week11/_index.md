@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 11"
-date: 2026-06-29
-weight: 11
+title: "Week 11 Worklog"
+date: 2024-01-01
+weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Objectives for Week 11:
+### Week 11 Objectives:
 
-- Coordinate closely with the team leader to integrate distributed services for the DaiMarket system.
-- Participate in reviewing, troubleshooting, and fixing technical issues arising in the Production environment.
+- Deploy the Frontend to Vercel.
+- Configure Proxy/Rewrites to connect the Frontend (Vercel) to the Backend (EC2).
+- Query and verify data integrity on Amazon RDS.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                           | Start Date | End Date   | Resource/Documentation                   |
-| --- | -------------------------------------------------------------- | ---------- | ---------- | ---------------------------------------- |
-| Mon | - Co-connect Frontend (Vercel) with DaiMarket EC2 API          | 29/06/2026 | 29/06/2026 | Vercel & AWS EC2 Logs                    |
-| Tue | - Assist linking S3 product images and RDS permissions         | 30/06/2026 | 30/06/2026 | AWS RDS / S3 Access Control              |
-| Wed | - Locate IAM Role permission errors & CORS conflicts           | 01/07/2026 | 01/07/2026 | Browser Developer Tools / AWS CloudWatch |
-| Thu | - Collaborate with leader to fix Production system errors      | 02/07/2026 | 02/07/2026 |                                          |
-| Fri | - Perform overall End-to-End integration testing for DaiMarket | 03/07/2026 | 03/07/2026 | Stable Production Environment            |
+| Day | Task                                                                                                     | Start Date | Completion Date |
+| --- | -------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Deploy the React/Vite build to Vercel.                                                                 | 06/29/2026 | 06/29/2026      |
+| 3   | - Write the `vercel.json` configuration to fix 404 errors on page reload (SPA routing).                  | 06/30/2026 | 06/30/2026      |
+| 4   | - Configure rewrites proxy to redirect `/api/*` requests from Vercel to the EC2 Backend IP.              | 07/01/2026 | 07/01/2026      |
+| 5   | - Use database management tools to connect to Amazon RDS to verify data written from the live interface. | 07/02/2026 | 07/02/2026      |
+| 6   | - Conduct E2E testing for the entire online system (Vercel Frontend -> EC2 Backend -> RDS/S3).           | 07/03/2026 | 07/03/2026      |
 
-### Achievements for Week 11:
+### Week 11 Achievements:
 
-- Successfully integrated the Vercel-hosted frontend to seamlessly connect with API processing endpoints on DaiMarket's EC2.
-- Accurately configured IAM Role permissions allowing API servers to safely read/write data to AWS RDS and S3 storage.
-- Completely fixed Cross-Origin Resource Sharing (CORS) blocks and image permission errors in the Production environment.
-- Ensured the entire buying, selling, and operational business flow of DaiMarket functioned synchronously and accurately.
+- The Frontend was successfully published; SPA routing and Mixed Content/CORS errors were completely fixed via rewrites.
+- The data flow is seamless; the Database on RDS accurately records data from real users.

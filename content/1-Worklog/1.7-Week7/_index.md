@@ -1,28 +1,28 @@
 ---
-title: "Worklog Week 7"
-date: 2026-06-01
-weight: 7
+title: "Week 7 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Objectives for Week 7:
+### Week 7 Objectives:
 
-- Explore Serverless architecture including AWS Lambda and Amazon DynamoDB.
-- Research methods for handling Real-time data transmission and connections.
+- Integrate 3D rendering technology in the browser.
+- Update the SQL schema to store metadata for files uploaded to S3.
+- Handle the interface for the digital product upload flow.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                       | Start Date | End Date   | Resource/Documentation        |
-| --- | ---------------------------------------------------------- | ---------- | ---------- | ----------------------------- |
-| Mon | - Learn Serverless arch. and write a test Lambda function  | 01/06/2026 | 01/06/2026 | AWS Lambda Developer Guide    |
-| Tue | - Set up tables and basic queries on NoSQL DynamoDB        | 02/06/2026 | 02/06/2026 | Amazon DynamoDB Console       |
-| Wed | - Learn Real-time connection solutions (WebSocket/Gateway) | 03/06/2026 | 03/06/2026 | AWS API Gateway Documentation |
-| Thu | - Implement real-time order status update flow             | 04/06/2026 | 04/06/2026 |                               |
-| Fri | - Simulate and test real-time client-server connection     | 05/06/2026 | 05/06/2026 | Sandbox Environment           |
+| Day | Task                                                                                                | Start Date | Completion Date |
+| --- | --------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Research the Three.js library to directly render 3D models (GLB files).                           | 06/01/2026 | 06/01/2026      |
+| 3   | - Integrate the 3D Viewer into the Product Detail page.                                             | 06/02/2026 | 06/02/2026      |
+| 4   | - Update the SQL schema to store file metadata: S3 path, size, format.                              | 06/03/2026 | 06/03/2026      |
+| 5   | - Complete the upload form UI supporting drag-and-drop for multiple file formats (PDF, GLB, Image). | 06/04/2026 | 06/04/2026      |
+| 6   | - Test the flow from form input -> calling the Backend API -> saving metadata to the Database.      | 06/05/2026 | 06/05/2026      |
 
-### Achievements for Week 7:
+### Week 7 Achievements:
 
-- Mastered the Serverless mindset, successfully building and triggering basic AWS Lambda functions.
-- Understood the Key-Value storage structure of DynamoDB and how to optimize the Partition Key.
-- Successfully established a Real-time messaging channel, enabling instant updates of prep/delivery status to the app UI without reloading the page.
+- The 3D model preview function works smoothly on the UI.
+- The Database has an accurate storage structure for resource files linked to S3.

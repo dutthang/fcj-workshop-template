@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 4"
-date: 2026-05-11
-weight: 4
+title: "Week 4 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Objectives for Week 4:
+### Week 4 Objectives:
 
-- Analyze business requirements and select the internship project topic.
-- Design the data model and sketch the initial AWS infrastructure architecture for the Smart Food project.
+- Synchronize the data structure and prepare API calling libraries.
+- Create mock data (Seed Data) in SQL for interface testing.
+- Implement initial State Management for the Frontend.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                          | Start Date | End Date   | Resource/Documentation              |
-| --- | ------------------------------------------------------------- | ---------- | ---------- | ----------------------------------- |
-| Mon | - Research feasibility and finalize the Smart Food topic      | 11/05/2026 | 11/05/2026 | Project Idea Description            |
-| Tue | - Analyze functional specifications (ordering, AI suggestion) | 12/05/2026 | 12/05/2026 |                                     |
-| Wed | - Design the Entity-Relationship Diagram (ERD)                | 13/05/2026 | 13/05/2026 | DB Diagram Design Tool              |
-| Thu | - Sketch the initial AWS infrastructure architecture          | 14/05/2026 | 14/05/2026 | Architecture Diagram Tool (Draw.io) |
-| Fri | - Initialize a blank project structure (Skeleton)             | 15/05/2026 | 15/05/2026 |                                     |
+| Day | Task                                                                          | Start Date | Completion Date |
+| --- | ----------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Configure Axios in preparation for calling APIs from the Frontend.          | 05/11/2026 | 05/11/2026      |
+| 3   | - Set up State Management to store User information upon successful login.    | 05/12/2026 | 05/12/2026      |
+| 4   | - Write SQL scripts to create seed data for Categories and Users.             | 05/13/2026 | 05/13/2026      |
+| 5   | - Test the login API call combined with mock data from the database.          | 05/14/2026 | 05/14/2026      |
+| 6   | - Set up and configure environment variables (.env) for the Frontend project. | 05/15/2026 | 05/15/2026      |
 
-### Achievements for Week 4:
+### Week 4 Achievements:
 
-- Clearly defined the scope of the "Smart Food" topic – A fast-food ordering application using AI for recommendations.
-- Completed the detailed functional specification document for the system.
-- Finished designing the initial relational database model (ERD) covering users, foods, and orders entities.
-- The overall system architecture diagram on AWS was approved by the team leader.
+- Axios and State Management were successfully configured.
+- Categories and Users data are available in PostgreSQL for the Frontend to render real UI.

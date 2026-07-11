@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 3"
-date: 2026-05-04
-weight: 3
+title: "Week 3 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Objectives for Week 3:
+### Week 3 Objectives:
 
-- Practice deeply with core services: EC2, S3, and secure SSH connections.
-- Test deploying a sample application using the Compute – Storage – Security model.
+- Build static layouts for the main pages.
+- Finalize the data structure and integrate Prisma Schema.
+- Establish relationships in the Database.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                     | Start Date | End Date   | Resource/Documentation                    |
-| --- | -------------------------------------------------------- | ---------- | ---------- | ----------------------------------------- |
-| Mon | - Launch an EC2 instance (Linux) & config Security Group | 04/05/2026 | 04/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Configure Key Pair and practice SSH into EC2           | 05/05/2026 | 05/05/2026 | Terminal / Command Prompt                 |
-| Wed | - Create S3 Bucket, set up Bucket Policy for storage     | 06/05/2026 | 06/05/2026 | AWS S3 Documentation                      |
-| Thu | - Deploy a basic sample web app onto the EC2 instance    | 07/05/2026 | 07/05/2026 | GitHub Sample Repository                  |
-| Fri | - Link the sample app with S3 and evaluate security      | 08/05/2026 | 08/05/2026 |                                           |
+| Day | Task                                                                                         | Start Date | Completion Date |
+| --- | -------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Code the static layout for the Home page.                                                  | 05/04/2026 | 05/04/2026      |
+| 3   | - Code the Login/Register forms. <br>- Set up React Router for navigation (SPA).             | 05/05/2026 | 05/05/2026      |
+| 4   | - Apply Prisma Schema to define tables in PostgreSQL.                                        | 05/06/2026 | 05/06/2026      |
+| 5   | - Establish 1-N relationships (User - Products, Category - Products) in SQL.                 | 05/07/2026 | 05/07/2026      |
+| 6   | - Review the Frontend layout and Database schema to ensure synchronization with the Backend. | 05/08/2026 | 05/08/2026      |
 
-### Achievements for Week 3:
+### Week 3 Achievements:
 
-- Successfully created and managed an EC2 virtual server, accurately configuring firewall rules (Inbound/Outbound).
-- Proficiently used SSH keys to remotely access the Linux system on the Cloud.
-- Created Amazon S3 storage, securely configuring public/internal access permissions.
-- Successfully ran a sample application combining both computing power (EC2) and object storage (S3).
+- The Home page and authentication forms have complete layouts; React Router navigation works well.
+- The Database structure has been accurately defined using Prisma Schema with full relationships.

@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 9"
-date: 2026-06-15
-weight: 9
+title: "Week 9 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-### Objectives for Week 9:
+### Week 9 Objectives:
 
-- Run Prototype evaluation tests and conduct Stress Testing on the system.
-- Package the source code and prepare the network infrastructure architecture on the Cloud environment.
+- Conduct End-to-End testing of the entire Prototype.
+- Fix Responsive UI issues and resolve data integrity problems.
+- Complete the Admin management interface.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                         | Start Date | End Date   | Resource/Documentation       |
-| --- | ------------------------------------------------------------ | ---------- | ---------- | ---------------------------- |
-| Mon | - Run end-user scenarios testing on the Prototype            | 15/06/2026 | 15/06/2026 | End-to-End Testing Scripts   |
-| Tue | - Use specialized tools to perform API Stress Testing        | 16/06/2026 | 16/06/2026 | Apache JMeter / Locust Tools |
-| Wed | - Analyze system bottlenecks and tweak resources             | 17/06/2026 | 17/06/2026 | Test Log Charts              |
-| Thu | - Initialize network infra (VPC, Subnet, Route Table) on AWS | 18/06/2026 | 18/06/2026 | AWS VPC Console              |
-| Fri | - Fully package the Smart Food app into deployment files     | 19/06/2026 | 19/06/2026 | Maven Build Tools            |
+| Day | Task                                                                                                              | Start Date | Completion Date |
+| --- | ----------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Fix UI display bugs on mobile and tablet devices (Responsive).                                                  | 06/15/2026 | 06/15/2026      |
+| 3   | - Complete the Admin interface: Statistics table, Ban/Unban user action buttons.                                  | 06/16/2026 | 06/16/2026      |
+| 4   | - Check and review all Foreign Keys in PostgreSQL.                                                                | 06/17/2026 | 06/17/2026      |
+| 5   | - Convert SQL logic from Hard Delete to Soft Delete to prevent P2003 errors.                                      | 06/18/2026 | 06/18/2026      |
+| 6   | - Review all buying/selling flows from the Buyer's perspective and management flows from the Admin's perspective. | 06/19/2026 | 06/19/2026      |
 
-### Achievements for Week 9:
+### Week 9 Achievements:
 
-- Identified the load limits of the Backend system (CPS/TPS metrics) through deep stress testing.
-- Successfully fixed database connection bottlenecks discovered during the stress test.
-- Perfectly established a safe, isolated network partition (VPC, Public/Private Subnets) on the AWS Cloud account.
-- The Smart Food project source code was successfully packaged into standard deployment files.
+- The interface works flawlessly across various screen sizes.
+- Foreign key constraint errors upon deleting products were resolved using a Soft Delete mechanism in the database.

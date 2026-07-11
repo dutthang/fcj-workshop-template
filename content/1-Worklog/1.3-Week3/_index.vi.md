@@ -1,29 +1,28 @@
 ---
 title: "Worklog Tuần 3"
-date: 2026-05-04
-weight: 3
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
 ### Mục tiêu tuần 3:
 
-- Thực hành chuyên sâu với các dịch vụ cốt lõi: EC2, S3, kết nối bảo mật SSH.
-- Thử nghiệm triển khai ứng dụng mẫu áp dụng mô hình Compute – Storage – Security.
+- Dựng layout tĩnh cho các trang chính.
+- Chốt cấu trúc dữ liệu và tích hợp Prisma Schema.
+- Thiết lập các mối quan hệ (Relationships) trong Database.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                    | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Khởi tạo instance EC2 (Linux) và cấu hình Security Group   | 04/05/2026   | 04/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Cấu hình Key Pair và thực hành kết nối SSH vào EC2         | 05/05/2026   | 05/05/2026      | Terminal / Cửa sổ dòng lệnh               |
-| 4   | - Tạo S3 Bucket, thiết lập Bucket Policy cho lưu trữ dữ liệu | 06/05/2026   | 06/05/2026      | AWS S3 Documentation                      |
-| 5   | - Triển khai một ứng dụng web mẫu cơ bản lên instance EC2    | 07/05/2026   | 07/05/2026      | GitHub Sample Repository                  |
-| 6   | - Liên kết ứng dụng mẫu với S3 và đánh giá mức độ bảo mật    | 08/05/2026   | 08/05/2026      |                                           |
+| Thứ | Công việc                                                                              | Ngày bắt đầu | Ngày hoàn thành |
+| --- | -------------------------------------------------------------------------------------- | ------------ | --------------- |
+| 2   | - Code layout tĩnh cho trang Chủ (Home).                                               | 04/05/2026   | 04/05/2026      |
+| 3   | - Code form Đăng nhập/Đăng ký. <br>- Thiết lập React Router cho việc điều hướng (SPA). | 05/05/2026   | 05/05/2026      |
+| 4   | - Áp dụng Prisma Schema để định nghĩa các bảng trong PostgreSQL.                       | 06/05/2026   | 06/05/2026      |
+| 5   | - Thiết lập quan hệ 1-N (User - Products, Category - Products) trong SQL.              | 07/05/2026   | 07/05/2026      |
+| 6   | - Rà soát lại layout Frontend và Database schema, đảm bảo đồng bộ với Backend.         | 08/05/2026   | 08/05/2026      |
 
 ### Kết quả đạt được tuần 3:
 
-- Tạo lập và quản trị thành công máy chủ ảo EC2, cấu hình luật tường lửa (Inbound/Outbound) chính xác.
-- Sử dụng thành thạo SSH key để truy cập từ xa vào hệ thống Linux trên Cloud.
-- Tạo vùng lưu trữ Amazon S3, cấu hình phân quyền truy cập công khai/nội bộ an toàn.
-- Chạy thử nghiệm thành công ứng dụng mẫu kết hợp cả năng lực tính toán (EC2) và lưu trữ đối tượng (S3).
+- Trang chủ và form xác thực đã có layout hoàn chỉnh, điều hướng React Router hoạt động tốt.
+- Cấu trúc Database đã được định nghĩa chuẩn xác bằng Prisma Schema với đầy đủ quan hệ.

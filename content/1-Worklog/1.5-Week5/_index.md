@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 5"
-date: 2026-05-18
-weight: 5
+title: "Week 5 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Objectives for Week 5:
+### Week 5 Objectives:
 
-- Configure the development environment, implement skeleton APIs, and build the initial UI.
-- Research and implement data integration with Amazon S3.
+- Develop the Product display module on the Frontend.
+- Write and optimize SQL queries to retrieve product data.
+- Connect product list APIs to the interface.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                 | Start Date | End Date   | Resource/Documentation                    |
-| --- | ---------------------------------------------------- | ---------- | ---------- | ----------------------------------------- |
-| Mon | - Set up the workspace on Visual Studio Code         | 18/05/2026 | 18/05/2026 | VS Code Plugin Configuration Guide        |
-| Tue | - Code backend skeleton APIs (Controller/Service)    | 19/05/2026 | 19/05/2026 | Restful API Design Document               |
-| Wed | - Build the initial Frontend layout for the app      | 20/05/2026 | 20/05/2026 | Figma/Sketch Project Designs              |
-| Thu | - Write AWS SDK integration module to talk with S3   | 21/05/2026 | 21/05/2026 | AWS SDK for Java/JavaScript Documentation |
-| Fri | - Test the food image upload/download function on S3 | 22/05/2026 | 22/05/2026 | Localhost Environment                     |
+| Day | Task                                                                               | Start Date | Completion Date |
+| --- | ---------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Code the Product List page interface.                                            | 05/18/2026 | 05/18/2026      |
+| 3   | - Code the Product Detail page interface.                                          | 05/19/2026 | 05/19/2026      |
+| 4   | - Write/optimize SQL queries to fetch product lists with pagination and filtering. | 05/20/2026 | 05/20/2026      |
+| 5   | - Code the Product Upload form for Sellers.                                        | 05/21/2026 | 05/21/2026      |
+| 6   | - Integrate Backend APIs to display the product list and details on the UI.        | 05/22/2026 | 05/22/2026      |
 
-### Achievements for Week 5:
+### Week 5 Achievements:
 
-- Synchronized and optimized the Visual Studio Code dev environment for smooth project execution.
-- Completed the Backend API framework, including routing and handling mock data.
-- The basic Client UI displaying the food list has taken shape.
-- Successfully integrated the AWS SDK library, allowing the application to stably upload images directly from local to the S3 cloud bucket.
+- The product list and detail interfaces successfully rendered real data from the Database.
+- SQL queries for fetching products were optimized and support pagination well.

@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 6"
-date: 2026-05-25
-weight: 6
+title: "Week 6 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Objectives for Week 6:
+### Week 6 Objectives:
 
-- Stabilize the entire Smart Food project structure and finalize the detailed Data Model.
-- Research the mechanism and implement the processing flow for the AI recommendation model.
+- Refactor and optimize the Frontend code structure.
+- Add Data Models for advanced flows (Payments, Transactions).
+- Enhance data integrity in the Database.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                     | Start Date | End Date   | Resource/Documentation          |
-| --- | -------------------------------------------------------- | ---------- | ---------- | ------------------------------- |
-| Mon | - Synchronize and clean up the entire source code        | 25/05/2026 | 25/05/2026 |                                 |
-| Tue | - Finalize encoding the Data Model into the DBMS         | 26/05/2026 | 26/05/2026 | Laragon/MySQL Connection Config |
-| Wed | - Research AI integration solutions for food suggestions | 27/05/2026 | 27/05/2026 | AI Model API Integration Docs   |
-| Thu | - Code the AI-based smart food suggestion module         | 28/05/2026 | 28/05/2026 |                                 |
-| Fri | - Locally test overall integration of core APIs          | 29/05/2026 | 29/05/2026 | Postman API Testing Tools       |
+| Day | Task                                                                                | Start Date | Completion Date |
+| --- | ----------------------------------------------------------------------------------- | ---------- | --------------- |
+| 2   | - Refactor React components, separating Business logic from UI logic.               | 05/25/2026 | 05/25/2026      |
+| 3   | - Improve the display of error messages (form validation) visually on the Frontend. | 05/26/2026 | 05/26/2026      |
+| 4   | - Add SQL design for the Orders and Transactions tables.                            | 05/27/2026 | 05/27/2026      |
+| 5   | - Add constraints to protect data in the SQL schema.                                | 05/28/2026 | 05/28/2026      |
+| 6   | - Retest the entire UI/UX and Database queries after refactoring.                   | 05/29/2026 | 05/29/2026      |
 
-### Achievements for Week 6:
+### Week 6 Achievements:
 
-- Source code directory structure standardized for easy maintenance and scalability.
-- Successfully initialized the entire table system and foreign key constraint relationships in the DB.
-- Completely developed the algorithm/data flow for AI to analyze behavior and provide accurate food suggestions for users.
-- Completed the basic CRUD API chain for managing project entities.
+- The Frontend code is cleaner and easier to maintain; Form validation works effectively.
+- The Database schema is ready to support complex transaction and payment features.

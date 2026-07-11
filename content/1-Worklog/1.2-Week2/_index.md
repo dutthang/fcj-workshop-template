@@ -1,29 +1,28 @@
 ---
-title: "Worklog Week 2"
-date: 2026-04-27
-weight: 2
+title: "Week 2 Worklog"
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Objectives for Week 2:
+### Week 2 Objectives:
 
-- Study Module 01, AWS pricing mechanisms, and cost optimization.
-- Learn and practice basic IAM configuration to secure Cloud resources.
+- Clearly understand the UI/UX requirements of the marketplace platform.
+- List UI Components and draft the interface.
+- Analyze and design the preliminary database for core entities.
 
-### Tasks to be implemented this week:
+### Tasks to be carried out this week:
 
-| Day | Task                                                | Start Date | End Date   | Resource/Documentation                    |
-| --- | --------------------------------------------------- | ---------- | ---------- | ----------------------------------------- |
-| Mon | - Explore AWS pricing models and cost optimization  | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | - Study Module 01 theory on AWS Academy             | 28/04/2026 | 28/04/2026 | AWS Academy Materials                     |
-| Wed | - Learn about AWS IAM identity management service   | 29/04/2026 | 29/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Practice creating IAM Users, Groups, and Policies | 30/04/2026 | 30/04/2026 | AWS Management Console                    |
-| Fri | - Summarize Module 01 and test permission access    | 01/05/2026 | 01/05/2026 |                                           |
+| Day | Task                                                                                 | Start Date | Completion Date |
+| --- | ------------------------------------------------------------------------------------ | ---------- | --------------- |
+| 2   | - Draft wireframes (UI/UX) for core pages: Home, Login, Register.                    | 04/27/2026 | 04/27/2026      |
+| 3   | - List reusable UI components (Button, Input, Card, Navbar).                         | 04/28/2026 | 04/28/2026      |
+| 4   | - Analyze necessary entities: Users, Products, Categories.                           | 04/29/2026 | 04/29/2026      |
+| 5   | - Write basic SQL statements (CREATE TABLE) to test the table creation logic.        | 04/30/2026 | 04/30/2026      |
+| 6   | - Finalize the Frontend screen list and draft Database schema with the Backend team. | 05/01/2026 | 05/01/2026      |
 
-### Achievements for Week 2:
+### Week 2 Achievements:
 
-- Clearly understood the Pay-as-you-go pricing mechanism and AWS budget control methods.
-- Completed the learning content and exercises of Module 01.
-- Gained a deep understanding of information security architecture with AWS IAM, distinguishing clearly between Users, Groups, and Roles.
-- Successfully assigned permissions for Sub-accounts following the principle of least privilege.
+- Drafted the basic interface and the list of components to build.
+- Designed the initial data structure for User, Product, Category and finalized the approach with the team.

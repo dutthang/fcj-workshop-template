@@ -1,29 +1,28 @@
 ---
 title: "Worklog Tuần 5"
-date: 2026-05-18
-weight: 5
+date: 2024-01-01
+weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
 ### Mục tiêu tuần 5:
 
-- Cấu hình môi trường lập trình, triển khai các API skeleton và giao diện người dùng ban đầu.
-- Nghiên cứu và hiện thực hóa tính năng tích hợp dữ liệu với Amazon S3.
+- Phát triển module hiển thị Sản phẩm trên Frontend.
+- Viết và tối ưu các câu truy vấn SQL lấy dữ liệu sản phẩm.
+- Khớp nối API danh sách sản phẩm lên giao diện.
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc                                                     | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Thiết lập không gian làm việc trên Visual Studio Code       | 18/05/2026   | 18/05/2026      | Hướng dẫn cấu hình plugin VS Code         |
-| 3   | - Lập trình các đầu API skeleton Backend (Controller/Service) | 19/05/2026   | 19/05/2026      | Tài liệu thiết kế API Restful             |
-| 4   | - Xây dựng bố cục giao diện Frontend ban đầu cho ứng dụng     | 20/05/2026   | 20/05/2026      | Bản vẽ Figma/Sketch của dự án             |
-| 5   | - Viết module tích hợp AWS SDK để giao tiếp với Amazon S3     | 21/05/2026   | 21/05/2026      | AWS SDK for Java/JavaScript Documentation |
-| 6   | - Kiểm thử chức năng upload/download hình ảnh món ăn lên S3   | 22/05/2026   | 22/05/2026      | Môi trường Localhost                      |
+| Thứ | Công việc                                                                            | Ngày bắt đầu | Ngày hoàn thành |
+| --- | ------------------------------------------------------------------------------------ | ------------ | --------------- |
+| 2   | - Code giao diện trang Danh sách sản phẩm (Product List).                            | 18/05/2026   | 18/05/2026      |
+| 3   | - Code giao diện trang Chi tiết sản phẩm (Product Detail).                           | 19/05/2026   | 19/05/2026      |
+| 4   | - Viết/tối ưu truy vấn SQL lấy danh sách sản phẩm có phân trang (pagination) và lọc. | 20/05/2026   | 20/05/2026      |
+| 5   | - Code form Upload sản phẩm dành cho Seller.                                         | 21/05/2026   | 21/05/2026      |
+| 6   | - Khớp nối API Backend để hiển thị danh sách và chi tiết sản phẩm lên UI.            | 22/05/2026   | 22/05/2026      |
 
 ### Kết quả đạt được tuần 5:
 
-- Đồng bộ và tối ưu hóa môi trường lập trình Visual Studio Code phục vụ dự án một cách trơn tru.
-- Hoàn thành bộ khung API Backend bao gồm định tuyến và xử lý dữ liệu giả định (Mock data).
-- Giao diện cơ bản phía Client hiển thị danh sách món ăn đã thành hình.
-- Tích hợp thành công thư viện AWS SDK, cho phép ứng dụng upload hình ảnh trực tiếp từ local lên cloud S3 bucket ổn định.
+- Giao diện danh sách và chi tiết sản phẩm đã render thành công dữ liệu thật từ Database.
+- Câu truy vấn SQL lấy sản phẩm được tối ưu, hỗ trợ phân trang tốt.
